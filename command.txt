@@ -1,0 +1,5 @@
+SELECT 0
+HMSET interface_0x0601_h force_up 0
+HMSET interface_0x0143_h force_up 0
+HMSET interface_0x0008_h force_up 0
+HMSET interface_0x0605_h force_up 0
