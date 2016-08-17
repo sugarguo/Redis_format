@@ -1,14 +1,21 @@
 # Redis_format
+
 Gets the AOF file, formatted as a visual command
 
 ## Reference format
 
 *3\r\n            parameter count
+
 $3\r\n            command length
+
 SET\r\n           command
+
 $3\r\n            key length
+
 key\r\n           key value
+
 $5\r\n            value length
+
 value\r\n         value
 
 
