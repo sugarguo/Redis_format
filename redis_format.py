@@ -75,7 +75,6 @@ print "OK!\nRead file to list!\n"
 
 start = time.clock()
 aofList = getFileLine(aofilename)
-print aofList
 end = time.clock()
 print "time use : %f s" % (end - start)
 
