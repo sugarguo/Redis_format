@@ -46,7 +46,7 @@ def getFileLine(filename):
         if m or n:
             continue
         else:
-            item = item.replace("\n","").replace("\r\n","")
+            item = item.replace("\r\n","").replace("\n","")
             getFileList.append(item)
     getFile.close()
     return getFileList
